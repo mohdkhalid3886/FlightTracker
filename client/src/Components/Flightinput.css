@@ -1,0 +1,69 @@
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.airlines-dropdown {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ddd;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1;
+}
+
+.airlines-dropdown ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.airlines-dropdown li {
+    padding: 8px 12px;
+    cursor: pointer;
+}
+
+.airlines-dropdown li:hover {
+    background-color: #f4f4f4;
+}
+
+.Subscribe-whatsapp {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: 2px solid #000;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    max-width: 90%;
+    height: auto;
+}
+
+.Subscribe-whatsapp input[type="text"],
+.Subscribe-whatsapp > button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.Subscribe-whatsapp > button {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.Subscribe-whatsapp > button:hover {
+    background-color: #0056b3;
+}
+
+
